@@ -1,0 +1,261 @@
+:root {
+    --main-gradient: linear-gradient(#ff8f00, #ff5722);
+    --overlay-gradient: linear-gradient(rgb(0 0 0 / 79%), rgb(0 0 0 / 33%));
+}
+
+/* Intro + Login Section */
+.simple_back {
+    background: var(--overlay-gradient), url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+}
+
+#login_wrap {
+    width: 100%;
+    height: 100%;
+}
+
+#login_all {
+    width: 800px;
+    max-width: 94%;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.intro_social_container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.intro_social_btn {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 3px;
+    border-radius: 50%;
+}
+
+.login_not_member {
+    text-align: center;
+    padding-top: 5px;
+}
+
+/* Active User Intro */
+#intro_section_user {
+    padding: 72px 0;
+}
+
+.active_user {
+    height: 110px;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+}
+
+#last_active {
+    width: 100%;
+    height: 110px;
+    margin: 0 auto;
+}
+
+.active_avatar {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+#last_active .left-arrow,
+#last_active .right-arrow {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+#last_active .left-arrow {
+    float: left;
+    border-right: 10px solid #ccc;
+    display: none;
+}
+
+#last_active .left-arrow:hover {
+    border-right: 10px solid #000;
+}
+
+#last_active .right-arrow {
+    float: right;
+    border-left: 10px solid #ccc;
+    display: none;
+}
+
+#last_active .right-arrow:hover {
+    border-left: 10px solid #000;
+}
+
+#last_active .last-clip {
+    margin: 0 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+#last_active .last_10 {
+    height: 110px;
+    width: 10000%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* General Section */
+.section {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.section_content {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.section_inside {
+    margin: 0 auto;
+}
+
+/* Additional Elements */
+#intro_lang {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.rborder {
+    border-right: 1px solid #00000014;
+}
+
+.back_panel {
+    background: #fff;
+}
+
+.login_panel {
+    position: relative;
+    display: none;
+    max-width: 100%;
+    width: 350px;
+    height: 100%;
+    padding: 36px 20px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.rselected {
+    background: var(--main-gradient);
+    color: #fff;
+}
+
+.lpanel_toggle {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+}
+
+.out_page_box {
+    min-height: 60vh;
+}
+
+.login_body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.login_body.login_pbody {
+    width: calc(100% - 350px);
+}
+
+.default_btn,
+.theme_btn,
+.ok_btn {
+    background: var(--main-gradient) !important;
+    color: #fff !important;
+}
+
+.lpanel_close {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    width: 36px;
+    height: 36px;
+}
+
+.login_box,
+.centered_element,
+.modal_content,
+.theme_btn {
+    font-family: "Noto Kufi Arabic", sans-serif, "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+}
+
+#login_logo {
+    height: 70px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1120px) {
+    .section_inside {
+        width: 96%;
+    }
+}
+
+@media screen and (min-width: 1121px) {
+    .simple_back {
+        background-attachment: fixed;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .simple_back {
+        background-size: auto 100%;
+        background-position: center 0px;
+        padding: 0 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .simple_back {
+        background-size: auto 100%;
+        background-position: center 0px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .login_panel {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 100;
+    }
+
+    .login_pbody {
+        width: 100% !important;
+    }
+
+    .lpanel_close {
+        display: block;
+    }
+}

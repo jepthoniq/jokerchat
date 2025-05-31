@@ -1,0 +1,203 @@
+/* General Colors */
+::-webkit-scrollbar { width: 7px; height: 6px; }
+::-webkit-scrollbar-thumb { background-color: #C0D2E6; border-radius: 20px; }
+::-webkit-scrollbar-track {background: rgba(0, 0, 0, 0.1);}
+/* Base Styles */
+a { color: orange; }
+body { background: #ededed; color: #444; }
+button { background: transparent; color: #fff; }
+input, textarea, .post_input_container { background: #f2f2f2; border: 1px solid #e6e6e6 !important; color: #666; }
+
+/* Login Box */
+.not_member { background: #ededed; color: #666; }
+
+/* Cookie Box */
+.cookie_wrap { background: #ddd; color: #666; }
+
+/* Background Themes */
+.back_theme { background: #03add8; color: #fff; }
+.back_dark { background: #012832; color: #fff; }
+.back_med { background: #ededed; color: #666; }
+.back_lite { background: #f3f3f3; color: #666; }
+.back_xlite { background: #fff; color: #666; }
+
+/* Button Colors */
+.default_btn, .back_default {
+    background: #222;
+    color: #fff;
+}
+.theme_btn { color: #fff; background-color: #665dfe; border-color: #665dfe; }
+/* .default_btn, .dark_selected { background: linear-gradient(to bottom, #17c9ff, #655dfff7); color: #fff; }
+ */.ok_btn { background: #74b20e; color: #fff; }
+.warn_btn { background: orange; color: #fff; }
+.delete_btn { background: #cc0000; color: #fff; }
+.sub_btn { background: #888; color: #fff; }
+
+/* Input Option Backgrounds */
+.input_wrap { background: #fff; border-top: 1px solid #ededed; }
+.input_item { color: #999; }
+.bbackhover { background: rgba(0, 0, 0, 0.05); }
+
+/* Background Colors */
+.top_background, .background_header, .chat_head, .chat_footer, .panel_top, .emo_head, .modal_top, .main_disabled {
+    color: #1c1a1a;
+    background: linear-gradient(#fff, #e9eef2);
+}
+.background_box { background: #ffffffcc; color: #666; border-radius: 1px; }
+.modal_top { box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.2); }
+
+/* Modal */
+.modal_menu, .tab_menu { background: #f3f3f3; color: #555; font-family: noto kufi arabic, sans-serif, trebuchet ms, lucida grande, lucida sans unicode, arial, helvetica, sans-serif; }
+.modal_selected, .tab_selected {font-weight: bolder; background: #ef007f; color: #fff; }
+.modal_back { background-color:rgba(0,0,0,0.6); }
+
+/* Panel Selected */
+.panel_selected { background: #ededed; }
+
+/* Registration Menu */
+.reg_menu { color: #444; }
+.reg_selected { background: #ededed; color: #444; }
+
+/* Menu Icons */
+.sub_menu_icon, .menui, .menuo, .menup { color: #665dfe; font-size: x-large; }
+
+/* Outside Menu */
+.sub_menu_item, .fmenu_item, .avitem { border-bottom: 1px solid #ededed; color: #000000; background: #fff; }
+.sub_menu_item:hover, .fmenu_item:hover, .avitem:hover { background: #ededed; color: #666 !important; }
+
+/* Inside Menu */
+.elem_in, .aclist, .left_drop_item, .page_drop_item { background: #f3f3f3; border-bottom: 1px solid #ddd; }
+.elem_in:hover, .aclist:hover, .left_drop_item:hover, .page_drop_item:hover { background: #e6e6e6; color: #666; }
+
+/* Page Menu */
+.page_menu_wrapper { background: #fff; }
+.page_menu_item { border-bottom: 1px solid #ededed; }
+.page_menu_item:hover { background: #ededed; color: #666; }
+.page_selected { color: #03add8 !important; }
+
+/* Text Error Colors */
+.error { color: red; }
+.success { color: #74b20e; }
+.warn { color: orange; }
+
+/* Chat Logs */
+.ch_logs:nth-child(odd) { border-left: 3px solid #11f111; }
+.ch_logs:nth-child(even) { border-left: 3px solid #ff9933; }
+.log2 { background: #f8f8f8c4; }
+.target_private { color: #fff; background: #333; }
+.hunter_private { color: #fff; background: #03add8; }
+
+/* Text Colors */
+.sub_text, .date, .listing_text, .docu_description { color: #888; }
+.sub_dark { color: #aaa; }
+.input_text, .logs_date, .pdate, .ptdate, .cclear, .cdate { color: #ccc; }
+.theme_color { color: #03add8; }
+.liked { background: #ededed; color: #666; }
+.default_color { color: #012832; }
+.user_count { color: #03add8; }
+.my_notice { color: #fff; background: #03add8; padding: 3px 10px; display: inline-block; line-height: 1em; margin-top: 2px; border-radius: 20px; font-weight: normal; }
+.shadow_text { text-shadow: 1px 1px #000; }
+.system_text { background: #ededed; color: #666; }
+.bustate { color: #999; }
+
+/* Notification Colors */
+.bnotify { background: red; color: #fff; }
+
+/* Elements */
+.element_color, .player_options, .page_element, #private_box, .chat_side_panel, #side_menu, .modal_in ,.ui-widget-header{ background: linear-gradient(#fff, #e9eef2); color: #000; }
+.background_chat { border-radius: 1px; }
+.chat_panel { background: #fff; }
+
+/* Shadow */
+.add_shadow, .page_element, #private_box, .page_menu_wrapper, .chat_side_panel, #side_menu, .sub_menu, .fmenu { box-shadow: 0 0 1px 1px #ddd; }
+
+/* No View Elements */
+.noview { background: #f1f1f1; border-bottom: 1px solid #fff; }
+
+/* Borders */
+.border_right, #chat_left { border-right: 1px solid #ededed; }
+.border_left, #chat_right { background: #bed0e500; border: 1px solid #edf1f4; border-radius: 1px; }
+.border_bottom, .label_line, .panel_bar, .side_bar, .listing_element, .listing_half_element, .post_element, .list_element, .listing_reg, .left_list, .user_item, .user_item_custom, .box_title { border-bottom: 1px solid #ededed; }
+.border_top { border-top: 1px solid #ededed; }
+.full_border { border: 1px solid #ededed; }
+
+/* List Element */
+.sub_list_item, .sub_item, .sub_half_item, .reply_item, .ulist_item, .sub_list { background: linear-gradient(#fff, #ffffff70); color: #000; }
+.sub_list_item:hover, .sub_item:hover, .sub_half_item:hover, .ulist_item:hover { background: #ededed; }
+
+/* Slider */
+.boom_slider .ui-widget-content { background: #ededed; }
+.boom_slider .ui-state-default, .boom_slider .ui-state-active { background: #999 !important; }
+.boom_slider .ui-slider-range { background: #ccc; }
+
+/* Select Box */
+.selectboxit-list, .selectboxit-btn { background-color: #f2f2f2; color: #666; border: 1px solid #e6e6e6 !important; }
+.selectboxit-list .selectboxit-focus .selectboxit-option-anchor { background-color: #ededed; color: #666; }
+.selectboxit-default-arrow { border-top: 4px solid #666; }
+.selectboxit-btn.selectboxit-enabled:hover, .selectboxit-btn.selectboxit-enabled:focus, .selectboxit-btn.selectboxit-enabled:active { background: #f2f2f2; color: #666; }
+.selectboxit-options { background: #fff; border: 1px solid #ccc; }
+.selectboxit-list .selectboxit-option-anchor { color: #666; }
+
+/* User Colors */
+.offline { opacity: 0.5; }
+.user { color: #666; }
+.chat_system { color: #0080ff; font-size: smaller; font-weight: 700; }
+
+/* List Icon Colors */
+.boy { border-color: #03add8; }
+.girl { border-color: #ff99ff; }
+.nosex { border-color: #ccc; }
+
+/* File Music and Upload */
+.file_color, .file_color a { background: #03add8; color: #fff; }
+.audio_color { background: #012832; color: #fff; }
+.song_title { background: #03647d; color: #fff; }
+.audio_progress { background: #fff; }
+.audio_ball { background: #03add8; }
+
+/* Warning Box */
+.boom_warning { color: #8a6d3b; background: #fcf8e3; border: 1px solid #faebcc; }
+.boom_error { background: #f2dede; color: #a94442; border: 1px solid #ebccd1; }
+.boom_success { color: #3c763d; background: #dff0d8; border: 1px solid #d6e9c6; }
+.boom_neutral { color: #31708f; background: #d9edf7; border: 1px solid #bce8f1; }
+
+/* Admin Box */
+.sp_box { background: #ededed; color: #666; }
+.sp_icon { background: #03add8; color: #fff; }
+
+/* Special Log */
+.topic_log { background: #665dfe; color: #fff; }
+.seen { background: #ffe6f2; color: #330019; }
+
+/* Custom */
+.login_sub_text, .login_title_text, .login_register_text { text-shadow: 1px 1px 1px #666; }
+#chat_right_content { width: 100%; background: #fffffff7; }
+.modal_top { border-radius:3px 2px 1px 1px; }
+#mobile_main_menu { border: 1px solid #d9dcdefa; border-radius: 17px; background: linear-gradient(#fff, #e9eef2); }
+
+/* Gifts */
+.gifts-container-modal { background: linear-gradient(#f3f6fb, #ffffff); }
+.gift_conin_text { color: #000000; }
+.gift_content_btn { background-color: #2A265F; }
+.gtag { background: #fff; border: 1px solid rgba(0, 0, 0, 0.08); }
+.gift_list_container { height: 100%; width: 100%; display: flow-root; background: #f3f3f31c; color: #555; }
+
+/* Like Profile */
+.plikes { background-color: rgba(100, 100, 100, 0.3); color: #fff; }
+.lite_olay { background-color: rgba(100, 100, 100, 0.4); color: #fff; }
+.pro_rank { color: #00e673; }
+.pro_name { color: blanchedalmond; }
+.pro_mood { color: #ff9933; font-style: italic; }
+
+/* Rooms Tabs */
+.room-tabs-container { border-bottom: 1px solid #fff; }
+.title-bar .nav-link.active { cursor: default; color: #fff; background-color: #00e673; border-color: #00e673; }
+/*profile background*/
+.profile_background {
+    background-repeat: no-repeat !important;
+}
+/*call*/
+.back_modal {
+    background: #fff;
+}
+.vcall_user{color: white;}

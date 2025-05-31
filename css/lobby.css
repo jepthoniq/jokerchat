@@ -1,0 +1,258 @@
+body {
+    background: #ededed;
+    color: #444;
+    font-size: 95.5%;
+}
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+.hidden{
+	display: none;
+}
+/* default login css */
+.topcmm-123flashchat-common-header{
+	background: #fff;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#fff), to(#e9eef2));
+    background: -webkit-linear-gradient(#fff, #e9eef2);
+    background: -moz-linear-gradient(#fff, #e9eef2);
+    background: -ms-linear-gradient(#fff, #e9eef2);
+    background: -o-linear-gradient(#fff, #e9eef2);
+    background: linear-gradient(#fff, #e9eef2);	
+}
+#fuse_wrap_main_header{
+    max-width: 98% !important;
+    margin: 0 auto;
+    height: 100%;
+}
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    color: var(--theme-color);
+    /* padding: 20px 40px; */
+    padding: 0px 0px;
+    height: 100%;
+    overflow: auto;
+    background-color: var(--theme-bg-color);
+}
+
+.room-list, .chat-room {
+    position: relative;
+    top: 5%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-size: 0;
+    height: 94%;
+	margin: 0 5px 5px;
+}
+.room-list {
+    padding: 0 5px;
+}
+.scroll {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.room-list, .chat-room, .dock-video-container {
+background: #bed0e5;
+    border: 3px solid #b1c8e2;
+}
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-auto, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-auto, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md-auto, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-auto, .col-xxl, .col-xxl-1, .col-xxl-2, .col-xxl-3, .col-xxl-4, .col-xxl-5, .col-xxl-6, .col-xxl-7, .col-xxl-8, .col-xxl-9, .col-xxl-10, .col-xxl-11, .col-xxl-12, .col-xxl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.room-one-block .room-container-outline {
+    position: relative;
+    height: 77px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 6px;
+    user-select: none;
+    overflow: hidden;
+}
+.room-one-block .room-container-outline {
+    background: linear-gradient(#b4c2d8, #fff);
+    border: 1px solid #fff;
+}
+.room-one-block .room-container-outline:hover {
+    background: #d7e1ed;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#d7e1ed), to(#fff));
+    background: -webkit-linear-gradient(#d7e1ed, #fff);
+    background: -moz-linear-gradient(#d7e1ed, #fff);
+    background: -ms-linear-gradient(#d7e1ed, #fff);
+    background: -o-linear-gradient(#d7e1ed, #fff);
+    background: linear-gradient(#d7e1ed, #fff);
+}
+.room-one-block .head-bg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 29px;
+}
+.room-one-block .head-bg {
+    background: #e7edf5;
+    color: #232323;
+}
+.room-one-block .room-content {
+    position: relative;
+    z-index: 1;
+}
+.d-flex {
+    display: flex !important;
+}
+.room-one-block .room-logo {
+    min-width: 60px;
+    width: 55px;
+    height: 55px;
+    padding: 4px;
+    margin-top: 8px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#fff), to(#dfe9f3));
+    background: -webkit-linear-gradient(#fff, #dfe9f3);
+    background: -moz-linear-gradient(#fff, #dfe9f3);
+    background: -ms-linear-gradient(#fff, #dfe9f3);
+    background: -o-linear-gradient(#fff, #dfe9f3);
+    background: linear-gradient(#fff, #dfe9f3);
+    border: 1px solid #bed0e5;
+    -moz-box-shadow: 0 2px 2px 0 #d4d2d2;
+    -webkit-box-shadow: 0 2px 2px 0 #d4d2d2;
+    box-shadow: 0 2px 10px 0px #d4d2d2;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=90, Color='#d4d2d2)";
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3,Direction=90,Color='#d4d2d2');
+}
+.room-one-block .room-logo img {
+    border-radius: 15%;
+}
+.img-fluid, .img-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
+img, svg {
+    vertical-align: middle;
+}
+img {
+    border-style: none;
+}
+.room-one-block .room-interior {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: calc(100% - 60px);
+    padding-left: 15px;
+}
+.room-one-block .room-interior .room-info {
+    max-width: calc(100% - 100px);
+}
+.text-hidden {
+    word-wrap: break-word;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.room-one-block .room-info h3, .room-one-block .room-conut-users {
+    line-height: 29px;
+    font-size: 80%;
+    text-align: start;
+    font-weight: 600;
+}
+.room-one-block .room-info h3, .room-one-block .room-conut-users {
+    color: #232323;
+}
+
+.room-conut-users {
+    display: inline-block;
+    padding-left: 25px;
+    font-weight: bold;
+    background: url(https://chatroom.blackglobalnetwork.com/static/img/chat/roomlist-users-number-icon.png) no-repeat left center;
+}
+.mb-0, .my-0 {
+    margin-bottom: 0 !important;
+}
+.mb-1, .my-1 {
+    margin-bottom: .375rem !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .75rem;
+}
+.room-one-block .room-info p {
+    margin-bottom: 0;
+    font-size: 11px;
+    word-wrap: break-word;
+}
+.room-one-block .room-des {
+    color: #015bb6;
+}
+.mt-1, .my-1 {
+    margin-top: .375rem !important;
+}
+.room-one-block .property {
+    min-width: 100px;
+    width: 100px;
+    text-align: center;
+    overflow: hidden;
+}
+.room-one-block .property-ico {
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.property-ico > span {
+    width: 16px;
+    height: 16px;
+}
+.room-video-ico {
+    background: url(https://chatroom.blackglobalnetwork.com/static/img/chat/userlist-block-single-video-img.png) no-repeat;
+}
+.btn_blue {
+    border-radius: 50%;
+    background: #88b1e2;
+    padding: 5px;
+    color: white;
+}
+.property-ico > span >img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 0;
+    left: 9px;
+}
+/* mobile responsive*/
+@media (max-width: 640px) {
+ .topcmm-123flashchat-roomlist-container-one-room-block {
+	width: 98%!important;
+	}   
+}
+@media (min-width: 768px) {
+ .col-md-4 {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%
+    }
+}
+@media (max-width: 370px) {
+    .room-list, .chat-room {
+        top: 7%;
+        height: 91%;
+    }   
+}
