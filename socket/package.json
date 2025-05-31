@@ -1,0 +1,25 @@
+{
+  "name": "dj-multimedia-system",
+  "version": "1.0.0",
+  "description": "A simple multimedia DJ system with Socket.IO",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "events": "^3.3.0",
+    "express": "^4.20.0",
+    "html-minifier": "^4.0.0",
+    "moment": "^2.30.1",
+    "peer": "^1.0.2",
+    "peerjs": "^1.5.4",
+    "redis": "^4.7.0",
+    "sanitize-html": "^2.16.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
